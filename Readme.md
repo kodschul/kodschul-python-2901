@@ -4,7 +4,7 @@ Dieses Repository bietet einen strukturierten Lernpfad für Python. Die verschie
 
 ## Inhaltsverzeichnis
 
-1. [M1 - Python Einführung](M1 - Python Einführung)
+1. [M1 - Python Einführung](https://github.com/kodschul/kodschul-python-2901/tree/c02173aadefaddd0d2ca9071b98094249c32c787/M1%20-%20Python%20Einf%C3%BChrung)
    - Grundlegende Konzepte und Installation von Python.
    - Erste Schritte mit einfachen Python-Programmen.
 
