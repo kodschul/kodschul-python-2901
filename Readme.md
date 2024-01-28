@@ -4,7 +4,7 @@ Dieses Repository bietet einen strukturierten Lernpfad für Python. Die verschie
 
 ## Inhaltsverzeichnis
 
-1. [M1 - Python Einführung](M1_Python_Einfuehrung/README.md)
+1. [M1 - Python Einführung](M1 - Python Einführung)
    - Grundlegende Konzepte und Installation von Python.
    - Erste Schritte mit einfachen Python-Programmen.
 
