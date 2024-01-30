@@ -1,3 +1,4 @@
+# Booleans
 num = int(input("Enter number: "))
 
 

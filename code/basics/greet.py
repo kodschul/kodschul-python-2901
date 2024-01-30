@@ -1,3 +1,4 @@
+# Strings, Integers & Booleans
 name = input("What's your name? ")
 age_str = input("How old are you? ")
 is_celebrated_str = input("Did you celebrate your birthday already? (Y/N) ")
