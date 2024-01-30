@@ -3,7 +3,7 @@ num = None
 while True:
     num_text = input("Enter a num: ")
     
-    if num_text.isnumeric():
+    if num_text.replace("-", "").isnumeric():
         num = int(num_text)
         break
     else: 

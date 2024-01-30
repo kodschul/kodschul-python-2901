@@ -12,3 +12,5 @@ max_i = len(items) - 1
 while i <= max_i:
     print(items[i])
     i += 1
+    
+    
