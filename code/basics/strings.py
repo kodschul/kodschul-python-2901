@@ -1,4 +1,4 @@
-name  = "franz test"
+name  = input("Enter name: ")
 
 print(f"User input: {name}")
 
@@ -34,3 +34,8 @@ if "a" in name:
     print('Your name has an "a" ' )
 else: 
     print("Your name doesn't have an 'a'")
+    
+    
+
+# first name:   franz 
+# last name:   dev 
