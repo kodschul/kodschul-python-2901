@@ -1,6 +1,14 @@
-number_guess = 5
+from random import randint
+
+number_guess = randint(1, 10)
 remaining_attempts = 3
 input_number = None
+
+print("------------------------------------------------")
+print("----------- Guess Number Game ------------------")
+print("----------- Guess a number between 1-10 to win!-")
+print("------------------------------------------------")
+print("")
 
 while input_number != number_guess and remaining_attempts > 0:
     input_number = int(input("Guess the number: "))
