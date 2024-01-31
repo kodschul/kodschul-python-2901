@@ -28,6 +28,15 @@
 # exit()
 
 
+# --- Join a list
+# fruits = ["orange", "mango", "apple", "lemonade"]
+# fruits_str = ", ".join(fruits)
+
+# print(f"My favorites fruits are: {fruits_str}")
+
+# exit()
+
+
 # --- Add an item to list
 fruits = ["orange", "mango", "apple", "lemonade"]
 
