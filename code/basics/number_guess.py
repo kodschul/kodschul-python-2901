@@ -1,5 +1,6 @@
 from random import randint
 
+
 number_guess = randint(1, 10)
 remaining_attempts = 3
 input_number = None
