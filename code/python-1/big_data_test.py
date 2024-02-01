@@ -24,11 +24,19 @@ persons.append({
 })
 
 
-def sort_by_age(person):
+def sort_by_name(person):
     return person['name']
 
 
-persons.sort(key=sort_by_age)
+def sort_by_age(person):
+    return person['age']
 
 
-print(persons)
+# persons.sort(key=sort_by_age)
+
+# persons.sort(key=sort_by_age)
+
+for person in persons:
+    print(f"Name: {person['name']}, Age: {person['age']}")
+
+# print(persons)

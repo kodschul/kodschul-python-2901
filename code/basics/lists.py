@@ -19,7 +19,7 @@
 # # Looping through a list
 # fruits = ["orange", "mango", "apple", "lemonade"]
 
-# for fruit in fruits: 
+# for fruit in fruits:
 #     print(f"I love {fruit}s ")
 
 # # -- Search an element in list
@@ -40,7 +40,8 @@
 # --- Add an item to list
 fruits = ["orange", "mango", "apple", "lemonade"]
 
-fruits.append("orange")    
+
+fruits.append("orange")
 fruits.insert(0, "pineapple")
 print(fruits)
 
@@ -49,10 +50,6 @@ fruits.remove("orange")
 
 print(fruits)
 exit()
-
-
-
-
 
 
 # deleted_item = fruits.pop(1)
