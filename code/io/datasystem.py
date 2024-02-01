@@ -1,8 +1,18 @@
+import json
+
 print("--- Data Processing System ---")
 
 persons = []
 
 # -- load existing data (phase 2)
+
+with open('persons.json', 'r') as f:
+    raw_text = f.read()
+
+# convert the raw_text into a list of persons
+persons = json.loads(raw_text)
+
+print(persons)
 
 # -- collect new data
 
@@ -50,3 +60,8 @@ print(f"Average height: {height_average} cm")
 print(f"Average weight: {weight_average} kg")
 
 # -- save the existing data (phase 1)
+
+output = json.dumps(persons)
+
+with open('persons.json', 'w') as f:
+    f.write(output)
