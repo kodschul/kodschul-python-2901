@@ -16,3 +16,13 @@ cat = Animal("cat", 3)
 
 dog.greet()
 cat.greet()
+
+
+bmw = Car()
+
+print(f"The car status: {bmw.status()}")
+bmw.start()
+print(f"The car status: {bmw.status()}")
+
+bmw.stop()
+print(f"The car status: {bmw.status()}")
