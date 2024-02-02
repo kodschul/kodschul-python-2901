@@ -1,18 +1,21 @@
 # your class comes here! ....
+class BankAccount:
 
+    balance = 0
+    name = None
 
-account1 = BankAccount()
+    def __init__(self, name):
+        self.name = name
 
+    def show_balance(self):
+        print(f"{self.name}'s current balance is: {self.balance} €")
 
-# print: Your current balance is: 0€
-account1.show_balance()
+    def deposit(self, amount):
+        self.balance += abs(amount)
 
-account1.deposit(100)
+    def withdraw(self, amount):
+        self.balance -= abs(amount)
 
-# pint: Your current balance is: 100€
-account1.show_balance()
-
-account1.withdraw(50)
-
-# pint: Your current balance is: 50€
-account1.show_balance()
+    def send_money(self, to_account, amount: float):
+        self.withdraw(amount)
+        to_account.deposit(amount)
