@@ -18,4 +18,5 @@ name_column = df['name']
 # new_df = df.drop_duplicates('name')
 sorted_df = df.sort_values(by='price', ascending=False)
 
-print(sorted_df)
+
+sorted_df.to_csv("fruits.csv", index=False)
